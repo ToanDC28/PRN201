@@ -1,0 +1,29 @@
+﻿<Window x:Class="ReadAverageScore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReadAverageScore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="CsvData" Margin="0,167,0,10"/>
+        <!--<DataGrid.Columns>
+                <DataGridTextColumn Header="Province" Binding="{Binding Province}" />
+                <DataGridTextColumn Header="Mathematics" Binding="{Binding Mathematics}" />
+                <DataGridTextColumn Header="Literature" Binding="{Binding Literature}" />
+                <DataGridTextColumn Header="Physics" Binding="{Binding Physics}" />
+                <DataGridTextColumn Header="Chemistry" Binding="{Binding Chemistry}" />
+                <DataGridTextColumn Header="Biology" Binding="{Binding Biology}" />
+                <DataGridTextColumn Header="Combined Natural Sciences" Binding="{Binding CombinedNaturalSciences}" />
+                <DataGridTextColumn Header="History" Binding="{Binding History}" />
+                <DataGridTextColumn Header="Geography" Binding="{Binding Geography}" />
+                <DataGridTextColumn Header="Civic Education" Binding="{Binding CivicEducation}" />
+                <DataGridTextColumn Header="Combined Social Sciences" Binding="{Binding CombinedSocialSciences}" />
+                <DataGridTextColumn Header="English" Binding="{Binding English}" />
+            </DataGrid.Columns>
+        </DataGrid>-->
+        <Button Content="View" HorizontalAlignment="Left" Margin="144,48,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>

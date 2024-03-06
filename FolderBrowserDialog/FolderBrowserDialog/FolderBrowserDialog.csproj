@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\file.png" />
+    <None Remove="images\pngwing.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\file.png" />
+    <Resource Include="images\pngwing.png" />
+  </ItemGroup>
+
+</Project>

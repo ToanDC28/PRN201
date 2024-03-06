@@ -1,0 +1,22 @@
+﻿<Window x:Class="ReadCSVAndCoonectDB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReadCSVAndCoonectDB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="CsvData" Margin="0,167,0,10"/>
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="449,42,0,0" VerticalAlignment="Top" Click="Btn_Browse" RenderTransformOrigin="0.614,2.106"/>
+        <TextBox x:Name="txtPath" HorizontalAlignment="Left" Margin="86,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
+        <Label Content="Path" HorizontalAlignment="Left" Margin="25,38,0,0" VerticalAlignment="Top"/>
+        <Button Content="Import" HorizontalAlignment="Left" Margin="526,41,0,0" VerticalAlignment="Top" Click="Btn_Import"/>
+        <ComboBox Name="box" HorizontalAlignment="Left" Margin="449,140,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem>ComboBox Item #1</ComboBoxItem>
+            <ComboBoxItem>ComboBox Item #2</ComboBoxItem>
+            <ComboBoxItem>ComboBox Item #3</ComboBoxItem>
+        </ComboBox>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="605,41,0,0" VerticalAlignment="Top" Click="Btn_Save" Width="51"/>
+    </Grid>
+</Window>
